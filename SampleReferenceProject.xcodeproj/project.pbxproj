@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08BC2DA0EECE70EAF04C48C5 /* Pods_SampleReferenceProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E7641879453CCBA6F788B9 /* Pods_SampleReferenceProject.framework */; };
 		1DD25A6E1E8223CB007F0BFF /* SampleReferenceProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DD25A6C1E8223CB007F0BFF /* SampleReferenceProject.xcdatamodeld */; };
 		1DD25A701E8223CB007F0BFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD25A6F1E8223CB007F0BFF /* Assets.xcassets */; };
-		1DD25A7F1E8228FE007F0BFF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1DD25A7E1E8228FE007F0BFF /* Info.plist */; };
 		1DD25A8F1E822E00007F0BFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD25A811E822E00007F0BFF /* AppDelegate.swift */; };
 		1DD25A901E822E00007F0BFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD25A881E822E00007F0BFF /* ViewController.swift */; };
 		1DD25A911E822E00007F0BFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD25A8C1E822E00007F0BFF /* LaunchScreen.storyboard */; };
 		1DD25A921E822E00007F0BFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD25A8E1E822E00007F0BFF /* Main.storyboard */; };
 		1DD25A941E822E2C007F0BFF /* enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD25A931E822E2C007F0BFF /* enums.swift */; };
 		1DD25A961E822E37007F0BFF /* validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD25A951E822E37007F0BFF /* validation.swift */; };
+		1DD25A9F1E825611007F0BFF /* AlertSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD25A9E1E825611007F0BFF /* AlertSwitch.swift */; };
+		1DD25AA11E825617007F0BFF /* AlertEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD25AA01E825617007F0BFF /* AlertEnums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,11 @@
 		1DD25A8E1E822E00007F0BFF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1DD25A931E822E2C007F0BFF /* enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = enums.swift; sourceTree = "<group>"; };
 		1DD25A951E822E37007F0BFF /* validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = validation.swift; sourceTree = "<group>"; };
+		1DD25A9E1E825611007F0BFF /* AlertSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertSwitch.swift; sourceTree = "<group>"; };
+		1DD25AA01E825617007F0BFF /* AlertEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertEnums.swift; sourceTree = "<group>"; };
+		503B1C1E5A8906E3A30632DC /* Pods-SampleReferenceProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleReferenceProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleReferenceProject/Pods-SampleReferenceProject.debug.xcconfig"; sourceTree = "<group>"; };
+		A8E7641879453CCBA6F788B9 /* Pods_SampleReferenceProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleReferenceProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C17A434ABD78752EF17E57 /* Pods-SampleReferenceProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleReferenceProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleReferenceProject/Pods-SampleReferenceProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08BC2DA0EECE70EAF04C48C5 /* Pods_SampleReferenceProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +55,8 @@
 			children = (
 				1DD25A641E8223CB007F0BFF /* SampleReferenceProject */,
 				1DD25A631E8223CB007F0BFF /* Products */,
+				DB1531A189CFC3207BE87466 /* Pods */,
+				726F90A60B0D083731E476E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +101,7 @@
 		1DD25A821E822E00007F0BFF /* CommonFunctions */ = {
 			isa = PBXGroup;
 			children = (
+				1DD25A9D1E825611007F0BFF /* Alerts */,
 				1DD25A831E822E00007F0BFF /* Enums */,
 				1DD25A841E822E00007F0BFF /* Validation */,
 			);
@@ -100,6 +111,7 @@
 		1DD25A831E822E00007F0BFF /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				1DD25AA01E825617007F0BFF /* AlertEnums.swift */,
 				1DD25A931E822E2C007F0BFF /* enums.swift */,
 			);
 			path = Enums;
@@ -178,6 +190,31 @@
 			path = APIHandler;
 			sourceTree = "<group>";
 		};
+		1DD25A9D1E825611007F0BFF /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				1DD25A9E1E825611007F0BFF /* AlertSwitch.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		726F90A60B0D083731E476E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8E7641879453CCBA6F788B9 /* Pods_SampleReferenceProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB1531A189CFC3207BE87466 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				503B1C1E5A8906E3A30632DC /* Pods-SampleReferenceProject.debug.xcconfig */,
+				E2C17A434ABD78752EF17E57 /* Pods-SampleReferenceProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -185,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DD25A771E8223CB007F0BFF /* Build configuration list for PBXNativeTarget "SampleReferenceProject" */;
 			buildPhases = (
+				030992D08681B522D970743F /* [CP] Check Pods Manifest.lock */,
 				1DD25A5E1E8223CA007F0BFF /* Sources */,
 				1DD25A5F1E8223CA007F0BFF /* Frameworks */,
 				1DD25A601E8223CA007F0BFF /* Resources */,
+				65A21A75125B2672FEC387F5 /* [CP] Embed Pods Frameworks */,
+				984F9F10131D6336EF530F4D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,7 +278,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DD25A911E822E00007F0BFF /* LaunchScreen.storyboard in Resources */,
-				1DD25A7F1E8228FE007F0BFF /* Info.plist in Resources */,
 				1DD25A701E8223CB007F0BFF /* Assets.xcassets in Resources */,
 				1DD25A921E822E00007F0BFF /* Main.storyboard in Resources */,
 			);
@@ -246,11 +285,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		030992D08681B522D970743F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		65A21A75125B2672FEC387F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleReferenceProject/Pods-SampleReferenceProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		984F9F10131D6336EF530F4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleReferenceProject/Pods-SampleReferenceProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1DD25A5E1E8223CA007F0BFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DD25A9F1E825611007F0BFF /* AlertSwitch.swift in Sources */,
+				1DD25AA11E825617007F0BFF /* AlertEnums.swift in Sources */,
 				1DD25A901E822E00007F0BFF /* ViewController.swift in Sources */,
 				1DD25A8F1E822E00007F0BFF /* AppDelegate.swift in Sources */,
 				1DD25A941E822E2C007F0BFF /* enums.swift in Sources */,
@@ -302,7 +391,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				"INFOPLIST_FILE[sdk=*]" = SupportingFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -346,7 +434,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				"INFOPLIST_FILE[sdk=*]" = SupportingFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -357,6 +444,7 @@
 		};
 		1DD25A781E8223CB007F0BFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 503B1C1E5A8906E3A30632DC /* Pods-SampleReferenceProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SampleReferenceProject/SupportingFiles/Info.plist;
@@ -369,6 +457,7 @@
 		};
 		1DD25A791E8223CB007F0BFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C17A434ABD78752EF17E57 /* Pods-SampleReferenceProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SampleReferenceProject/SupportingFiles/Info.plist;
