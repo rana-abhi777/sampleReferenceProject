@@ -1,0 +1,12 @@
+PODS:
+  - SwiftMessages (3.2.1)
+
+DEPENDENCIES:
+  - SwiftMessages
+
+SPEC CHECKSUMS:
+  SwiftMessages: d114d273978678c0dce036f30273865af7303a35
+
+PODFILE CHECKSUM: 2b79d206c3d71f9faf2378fc62ccd378b59afd5e
+
+COCOAPODS: 1.2.0

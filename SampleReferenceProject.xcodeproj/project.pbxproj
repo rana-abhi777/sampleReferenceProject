@@ -18,6 +18,7 @@
 		1DD25A961E822E37007F0BFF /* validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD25A951E822E37007F0BFF /* validation.swift */; };
 		1DD25A9F1E825611007F0BFF /* AlertSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD25A9E1E825611007F0BFF /* AlertSwitch.swift */; };
 		1DD25AA11E825617007F0BFF /* AlertEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD25AA01E825617007F0BFF /* AlertEnums.swift */; };
+		1DE0CD051E8401DC003C1136 /* ZFRippleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE0CD041E8401DC003C1136 /* ZFRippleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		1DD25A951E822E37007F0BFF /* validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = validation.swift; sourceTree = "<group>"; };
 		1DD25A9E1E825611007F0BFF /* AlertSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertSwitch.swift; sourceTree = "<group>"; };
 		1DD25AA01E825617007F0BFF /* AlertEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertEnums.swift; sourceTree = "<group>"; };
+		1DE0CD041E8401DC003C1136 /* ZFRippleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFRippleButton.swift; sourceTree = "<group>"; };
 		503B1C1E5A8906E3A30632DC /* Pods-SampleReferenceProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleReferenceProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleReferenceProject/Pods-SampleReferenceProject.debug.xcconfig"; sourceTree = "<group>"; };
 		A8E7641879453CCBA6F788B9 /* Pods_SampleReferenceProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleReferenceProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C17A434ABD78752EF17E57 /* Pods-SampleReferenceProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleReferenceProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleReferenceProject/Pods-SampleReferenceProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 		1DD25A641E8223CB007F0BFF /* SampleReferenceProject */ = {
 			isa = PBXGroup;
 			children = (
+				1DE0CD021E8401DC003C1136 /* Classes */,
 				1DD25A971E822E8A007F0BFF /* APIHandler */,
 				1DD25A801E822E00007F0BFF /* AppDelegate */,
 				1DD25A821E822E00007F0BFF /* CommonFunctions */,
@@ -196,6 +199,22 @@
 				1DD25A9E1E825611007F0BFF /* AlertSwitch.swift */,
 			);
 			path = Alerts;
+			sourceTree = "<group>";
+		};
+		1DE0CD021E8401DC003C1136 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1DE0CD031E8401DC003C1136 /* ClassRippleEffect */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1DE0CD031E8401DC003C1136 /* ClassRippleEffect */ = {
+			isa = PBXGroup;
+			children = (
+				1DE0CD041E8401DC003C1136 /* ZFRippleButton.swift */,
+			);
+			path = ClassRippleEffect;
 			sourceTree = "<group>";
 		};
 		726F90A60B0D083731E476E1 /* Frameworks */ = {
@@ -345,6 +364,7 @@
 				1DD25A941E822E2C007F0BFF /* enums.swift in Sources */,
 				1DD25A961E822E37007F0BFF /* validation.swift in Sources */,
 				1DD25A6E1E8223CB007F0BFF /* SampleReferenceProject.xcdatamodeld in Sources */,
+				1DE0CD051E8401DC003C1136 /* ZFRippleButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
